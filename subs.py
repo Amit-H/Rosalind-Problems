@@ -13,7 +13,7 @@ def motif(dna, frag):
 
     Output params:
     repeats = a list of start positions 
-    of the fragment
+    of the fragment without commas as separators.
     '''
     repeats = []
     for i in range(len(dna)):
